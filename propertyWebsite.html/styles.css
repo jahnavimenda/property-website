@@ -1,0 +1,62 @@
+body {
+    background-image: url('bluehouse.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    margin: 0; 
+    height: 100vh;
+}
+
+
+header h1{
+    text-align: center;
+    color: white;
+}
+.navbar {
+    list-style-type: none;
+    margin-left: 270px;
+    padding: 0;
+    width: 60%;
+    overflow: hidden;
+    background-color: rgb(98, 97, 14);
+    position: sticky;
+    display:flex;
+    flex-direction: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar li a:hover {
+    background-color: #7d3037;
+}
+
+.navbar li form select{
+    height: 47px;
+    border-radius: 12%;
+}
+
+main{
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.2rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for a stylish look */
+}
